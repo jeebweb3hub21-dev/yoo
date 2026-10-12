@@ -1,5 +1,6 @@
 import { AgainQuestion } from './AgainQuestion.jsx';
 import { CuteQuestion } from './CuteQuestion.jsx';
+import { FunnyQuestion } from './FunnyQuestion.jsx';
 import { KissQuestion } from './KissQuestion.jsx';
 import { LikeMeQuestion } from './LikeMeQuestion.jsx';
 import { SmileQuestion } from './SmileQuestion.jsx';
@@ -21,6 +22,12 @@ export const questions = [
     eyebrow: 'Be honest',
     prompt: 'Do you think I am cute?',
     Component: CuteQuestion,
+  },
+  {
+    id: 'funny',
+    eyebrow: 'Tell me',
+    prompt: 'Do you think I am funny?',
+    Component: FunnyQuestion,
   },
   {
     id: 'smile',
